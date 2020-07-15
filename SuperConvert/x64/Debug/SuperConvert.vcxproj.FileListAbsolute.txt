@@ -1,0 +1,3 @@
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\x64\Debug\SuperConvert.vcxprojAssemblyReference.cache
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\x64\Debug\SuperConvert.mainform.resources
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\x64\Debug\SuperConvert.vcxproj.GenerateResource.cache

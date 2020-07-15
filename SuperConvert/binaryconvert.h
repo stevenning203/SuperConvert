@@ -10,12 +10,12 @@ namespace SuperConvert {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for binaryform
+	/// Summary for binaryconvert
 	/// </summary>
-	public ref class binaryform : public System::Windows::Forms::Form
+	public ref class binaryconvert : public System::Windows::Forms::Form
 	{
 	public:
-		binaryform(void)
+		binaryconvert(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +27,7 @@ namespace SuperConvert {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~binaryform()
+		~binaryconvert()
 		{
 			if (components)
 			{
@@ -50,7 +50,7 @@ namespace SuperConvert {
 		{
 			this->components = gcnew System::ComponentModel::Container();
 			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"binaryform";
+			this->Text = L"binaryconvert";
 			this->Padding = System::Windows::Forms::Padding(0);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 		}

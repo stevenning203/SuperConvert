@@ -90,6 +90,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -118,16 +120,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="binaryform.cpp" />
+    <ClCompile Include="binaryconvert.cpp" />
     <ClCompile Include="mainform.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="binaryform.h">
+    <ClInclude Include="basicStringConvert.h" />
+    <ClInclude Include="binaryconvert.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="mainform.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,15 +18,18 @@
     <ClCompile Include="mainform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="binaryform.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="binaryconvert.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="binaryform.h">
+    <ClInclude Include="binaryconvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basicStringConvert.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
