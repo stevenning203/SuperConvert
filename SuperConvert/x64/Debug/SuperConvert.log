@@ -1,6 +1,14 @@
 ﻿  mainform.cpp
-C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(193,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(194,4): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\basicStringConvert.h(26,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\basicStringConvert.h(33,33): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\basicStringConvert.h(38,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(197,16): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(198,6): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(231,1): warning C4244: '+=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(253,16): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(254,6): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(284,1): warning C4244: '+=': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.h(265,9): warning C4101: 'buffer': unreferenced local variable
 C:\Users\steve\Documents\Development\SuperConvert\SuperConvert\mainform.cpp(7,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
   binaryconvert.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   SuperConvert.vcxproj -> C:\Users\steve\Documents\Development\SuperConvert\x64\Debug\SuperConvert.exe
